@@ -1,13 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import './form.scss';
 import SignUp from './components/form/sign-up';
 import SignIn from './components/form/sign-in';
-import handleClick from './components/form/tab-action';
 import Tab from './components/form/tabs';
-import PropTypes from 'prop-types';
 
 function App() {
   return (
